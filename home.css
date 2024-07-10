@@ -1,0 +1,36 @@
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg) translate(50px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(50px) rotate(-360deg);
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.hometxt {
+    color: white;
+    text-align: center;
+}
+
+#cristiandev {
+    text-align: center;
+}
+
+.redcube {
+    color: red;
+    text-align: center;
+    padding-left: 615px;
+}
